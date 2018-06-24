@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <img src="../assets/logo.png">
     <h2>官方的学习链接</h2>
     <ul>
       <li>
@@ -92,7 +92,6 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '基于vue的学习例子'
     }
   }
 }

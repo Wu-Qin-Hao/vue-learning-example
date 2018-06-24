@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>echarts示例demo</h1>
+    <router-link to="/">返回首页</router-link>
     <div ref='echarts' style="width: 600px;height:400px;"></div>
   </div>
 </template>
@@ -91,7 +92,7 @@ export default {
             data: this.data
           }]
         })
-      }, 500)
+      }, 1000)
     }
   }
 }
