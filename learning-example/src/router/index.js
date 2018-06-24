@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import echarts from '@/components/echarts/echarts-autoUpdata'
+import echarts from '@/views/echarts/echarts-autoUpdata'
 
 Vue.use(Router)
 
