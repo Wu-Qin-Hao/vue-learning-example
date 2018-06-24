@@ -79,9 +79,12 @@
       </li>
     </ul>
     <h2>自己的学习示例</h2>
-        <ul>
+    <ul>
       <li>
-        <router-link to="/echarts">echarts</router-link>
+        <router-link to="/echarts_autoUpata">echarts-动态时间轴</router-link>
+      </li>
+      <li>
+        <router-link to="/echarts_gantt">echarts-甘特图</router-link>
       </li>
     </ul>
   </div>

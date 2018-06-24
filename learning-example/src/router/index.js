@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import echarts from '@/views/echarts/echarts-autoUpdata'
+import echartsAutoUpdata from '@/views/echarts/echarts_autoUpdata'
+import echartsGantt from '@/views/echarts/echarts_gantt'
 
 Vue.use(Router)
 
@@ -13,9 +14,14 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/echarts',
-      name: 'echarts',
-      component: echarts
+      path: '/echarts_autoUpata',
+      name: 'echarts_autoUpdata',
+      component: echartsAutoUpdata
+    },
+    {
+      path: '/echarts_gantt',
+      name: 'echarts_gantt',
+      component: echartsGantt
     }
   ]
 })
