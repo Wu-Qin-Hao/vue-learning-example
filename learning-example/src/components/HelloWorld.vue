@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>官方的学习链接</h2>
     <ul>
       <li>
         <a
@@ -35,7 +35,6 @@
           Twitter
         </a>
       </li>
-      <br>
       <li>
         <a
           href="http://vuejs-templates.github.io/webpack/"
@@ -45,7 +44,6 @@
         </a>
       </li>
     </ul>
-    <h2>Ecosystem</h2>
     <ul>
       <li>
         <a
@@ -80,6 +78,12 @@
         </a>
       </li>
     </ul>
+    <h2>自己的学习示例</h2>
+        <ul>
+      <li>
+        <router-link to="/echarts">echarts</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -88,7 +92,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '基于vue的学习例子'
     }
   }
 }
